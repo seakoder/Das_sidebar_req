@@ -1,0 +1,163 @@
+html,
+body {
+    box-sizing: border-box;
+    margin-top: 2%;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #F5F5F5;
+}
+
+.left {
+    display: inline-block;
+    width: 12%;
+    height: 93.5vh;
+    margin-left: 3vw;
+    background-color: #FFFFFF;
+}
+
+.top {
+    display: inline-block;
+    width: 64%;
+    height: 4%;
+    display: flex;
+    margin-left: 15.3%;
+    margin-top: -44.9%;
+    background-color: #FFFFFF;
+}
+
+.center {
+    display: inline-block;
+    width: 64%;
+    margin-top: .3%;
+    margin-left: 15.3%;
+    height: 86vh;
+    background-color: #FFFFFF;
+
+}
+
+.right {
+    display: inline-block;
+    width: 16%;
+    position: absolute;
+    margin-top: -3.5%;
+    margin-left: .3%;
+    height: 93.5vh;
+    background-color: #FFFFFF;
+
+}
+
+.left ul li {
+
+    list-style-type: none;
+    margin-bottom: 10%;
+    font-size: 14px;
+}
+
+.left ul {
+    margin-top: 40%;
+}
+
+.top p {
+    margin-left: 4%;
+}
+
+.top input {
+    margin-left: 58%;
+    margin-top: 1.5%;
+    height: 3vh;
+    border-radius: 4px;
+    background: rgb(233, 233, 233);
+    border: none;
+}
+
+.top svg {
+
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.box {
+    width: 20%;
+    height: 15vh;
+    border-radius: 9px;
+    margin-left: 3.5%;
+}
+
+.one {
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.one:hover {
+    border: 1px dashed purple;
+
+}
+
+.two {
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.two:hover {
+    border: 1px dashed purple;
+
+}
+
+.right:hover {
+    border: 1px solid purple;
+}
+
+.a,.b,.c,.d {
+
+    background-color: #F7F9FB;
+}
+
+.a {
+
+    height: 35%;
+    width: 67%;
+    display: inline-block;
+    margin-left: 3.5%;
+    border-radius: 9px;
+    margin-top: 2%;
+
+}
+
+.b {
+    display: inline-block;
+    height: 30%;
+    width: 13%;
+    margin-top: 1.2%;
+    margin-left: 2.1%;
+    border-radius: 9px;
+    position: absolute;
+
+}
+
+.c {
+    height: 35%;
+    width: 44.5%;
+    margin-left: 3.5%;
+    border-radius: 9px;
+    display:inline-block;
+
+
+}
+
+.d {
+    height: 35%;
+    width: 44.5%;
+    margin-left: 1.5%;
+    border-radius: 9px;
+    display:inline-block;
+
+}
+
+.columns {
+    position: absolute;
+    left: 25%;
+    bottom: 1.5%;
+
+}
